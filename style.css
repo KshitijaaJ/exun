@@ -44,10 +44,11 @@ padding: 20vh 0;
 	outline: none;
 }
 .btn-search{
+	color: white;
 	height: 40px;
 	width: 40px;
 	background-color: #0064ff;
-	border:none;
+	border-color: #0064ff;
 }
 .btn-search:focus{
 	outline: none;
@@ -62,6 +63,49 @@ padding: 20vh 0;
 }
 
 .c-one{
+	padding: 10vh 8vw;
+	display: flex;
 	height: 100vh;
 	background-color: #78bb89;
+}
+.c-first{
+	padding-top: 20vh;
+	width: 30vw;
+}
+.c-text{
+	color: white;
+	font-size: 35px;
+	font-weight: 700;
+}
+.c-text-p{
+	color: white;
+	font-size: 20px;
+}
+.btn-hp{
+	font-size: 15px;
+	padding: 8px 15px;
+	border:none;
+	background-color: #d26c6c;
+	border-radius: 20px;
+	color: white;
+}
+.btn-hp:focus{
+	outline: none;
+}
+.c-two{
+	padding: 10vh 8vw;
+	display: flex;
+	height: 100vh;
+	background-color: #a26032;
+}
+.c-three{
+	padding: 10vh 8vw;
+	display: flex;
+	height: 100vh;
+	background-color: #c26543;
+}
+.footer-btm{
+	color: white;
+	padding: 15px 30px;
+	background-image: url(images/foot.jpg);
 }
