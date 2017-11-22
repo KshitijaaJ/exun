@@ -20,6 +20,9 @@ body{
 	height: 100vh;
 	background-image: url(images/foot2.jpg);
 }
+.abc{
+	color: #888;
+}
 .search{
 padding: 20vh 0 15vh 0;
 }
@@ -136,9 +139,17 @@ padding: 20vh 0 15vh 0;
 	display: flex;
 	height: 100vh;
 	background-image: url(images/foot5.jpg);
-		background-size: cover;
+	background-size: cover;
+}
+.c-four{
+	padding: 10vh 8vw;
+	display: flex;
+	height: 100vh;
+	background-image: url(images/foot3.jpg);
+	background-size: cover;
 }
 .footer-btm{
+	font-size: 12px;
 	color: white;
 	padding: 15px 30px;
 	background-image: url(images/foot.jpg);

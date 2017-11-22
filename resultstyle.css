@@ -2,6 +2,20 @@ body{
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+::-webkit-scrollbar {
+	width: 0.7vw;
+}
+::-webkit-scrollbar-track {
+	background-color: #dddddd;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #18c2f3;
+	border-radius: 1.3vh;
+}
+::-webkit-scrollbar-button {
+	background-color: #333;
+	height: 1vh;
+}
 .nav-top{
 	min-height: 8vh;
 	border-bottom: 1px solid #d9d9d9;
@@ -37,6 +51,14 @@ body{
 }
 .btn-search:focus{
 	outline: none;
+}
+.top-icon{
+	float: right; color: #999;
+	padding-top: 10px;
+	border-bottom: 1px solid #666;
+}
+.top-icon:hover{
+	color: #222;
 }
 .page{
 	padding: 5vh 8vw;
@@ -93,4 +115,15 @@ body{
 	margin-left: 5px;
 	font-size: 13px;
 	color: #35355b;
+}
+.footer{
+	overflow: auto;
+	padding: 10px 15px;
+	background-color: #e9e9e9;
+	font-size: 12px;
+	color: #6e6e6e
+}
+.last{
+	text-decoration: none;
+	color: #6e6e6e;
 }
