@@ -18,10 +18,10 @@ body{
 }
 .main{
 	height: 100vh;
-	background-color: #fff;
+	background-image: url(images/foot2.jpg);
 }
 .search{
-padding: 20vh 0;
+padding: 20vh 0 15vh 0;
 }
 .search-img{
 	height: 20vh;
@@ -33,7 +33,7 @@ padding: 20vh 0;
 	font-size: 35px;
 }
 .search-box{
-	height: 40px;
+	height: 15px;
 	padding: 12px;
 	width: 35vw;
 	margin-top: 4vh;
@@ -61,12 +61,39 @@ padding: 20vh 0;
 	text-decoration: none;
 	color: #2f64ff;
 }
+.lnk{
+	text-decoration: none;
+	color: #298bff;
+	border-bottom-color: transparent;
+	transition: border-bottom-color 500ms ease-out;
+}
+.lnk:hover{
+	border-bottom: 1px solid;
+	border-bottom-color: #298bff;
+	transition: border-bottom-color 500ms ease-out;
+}
+.icon-arrow{
+	padding: 4px;
+	padding-left: 10px;
+	padding-top: 2px
+	height: 36px;
+	width: 28px;
+	line-height: 30px;
+	margin-left: 47vw;
+	background-color: #444;
+	color: #eee;
+	border-radius: 30px; 
+}
+
+
+
 
 .c-one{
 	padding: 10vh 8vw;
 	display: flex;
 	height: 100vh;
-	background-color: #78bb89;
+	background-image: url(images/foot3.jpg);
+	background-size: cover;
 }
 .c-first{
 	padding-top: 20vh;
@@ -74,20 +101,25 @@ padding: 20vh 0;
 }
 .c-text{
 	color: white;
-	font-size: 35px;
-	font-weight: 700;
+	font-size: 45px;
+	font-weight: 500;
 }
 .c-text-p{
 	color: white;
-	font-size: 20px;
+	font-size: 24px;
 }
 .btn-hp{
 	font-size: 15px;
+	font-weight: 600;
 	padding: 8px 15px;
 	border:none;
-	background-color: #d26c6c;
+	background-color: #ff5a6e;
 	border-radius: 20px;
 	color: white;
+	transition: background-color 400ms ease-out;
+}
+.btn-hp:hover{
+	background-color: #bd2f40;
 }
 .btn-hp:focus{
 	outline: none;
@@ -96,16 +128,34 @@ padding: 20vh 0;
 	padding: 10vh 8vw;
 	display: flex;
 	height: 100vh;
-	background-color: #a26032;
+	background-image: url(images/foot4.jpg);
+	background-size: cover;
 }
 .c-three{
 	padding: 10vh 8vw;
 	display: flex;
 	height: 100vh;
-	background-color: #c26543;
+	background-image: url(images/foot5.jpg);
+		background-size: cover;
 }
 .footer-btm{
 	color: white;
 	padding: 15px 30px;
 	background-image: url(images/foot.jpg);
+	background-size: cover;
+}
+.btm-right{
+	float: right;
+}
+.last{
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px solid;
+	border-bottom-color: transparent;
+	transition: border-bottom-color 400ms ease-out;
+}
+.last:hover{
+	text-decoration: none;
+	color: white;
+	border-bottom-color: white;
 }

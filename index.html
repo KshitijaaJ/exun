@@ -6,13 +6,10 @@
 	<link rel="shortcut icon" type="image" href="images/logo.png">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://kryogenix.org/code/browser/smoothscroll/smoothscroll.js"></script>
 </head>
 <body>
-	<div class="main">
+	<div class="main" id="home">
 
 		<div class="search" align="center">
 			<img src="images/logo.png" class="search-img">
@@ -22,16 +19,19 @@
 			<input type="text" class="search-box" autofocus><button class="btn-search"n type="submit"><i class="fa fa-search"></i></button>
 		</form>
 		<p class="search-intro">The search engine that learns from you. <a href="#learn" class="search-link">Learn More.</a></p>
-		<p><a href="#">हिंदी </a><a href="#">मराठी </a><a href="#">اردو </a><a href="#">తెలుగు </a><a href="#">বাঙালি </a><a href="#">ગુજરાતી </a><a href="#">తెలుగు </a><a href="#">தமிழ் </a></p>
+		<p><a href="#" class="lnk">हिंदी </a><a href="#" class="lnk">मराठी </a><a href="#" class="lnk">اردو </a><a href="#" class="lnk">తెలుగు </a><a href="#" class="lnk">বাঙালি </a><a href="#" class="lnk">ગુજરાતી </a><a href="#" class="lnk">తెలుగు </a><a href="#" class="lnk">தமிழ் </a></p>
 		</div>	
+				<span class="arrow-btm">
+			<a href="#learn" class="smoothscroll"><i class="fa fa-angle-double-down fa-2x icon-arrow"></i></a>
+		</span>
 	</div>
 
 	<!--compartments-->
 	<div class="c-one" id="learn">
 		<div class="c-first">
 			<p class="c-text">It learns from you</p>
-			<p class="c-text-p">Ever thought of a search engine in a language other than english?<br>No? ORCI has it.</p>
-			<button class="btn-hp fromCenter">Make ORCI your homepage</button>
+			<p class="c-text-p">Orci learns from the click through rates and patterns of it's users from all over the world.</p>
+			<button class="btn-hp fromCenter">Make ORCI your search engine</button>
 		</div>
 	</div>
 
@@ -39,7 +39,7 @@
 		<div class="c-first">
 			<p class="c-text">Relevent, accurate, fast, reliable</p>
 			<p class="c-text-p">Need more?</p>
-			<button class="btn-hp">Make ORCI your homepage</button>
+			<button class="btn-hp">Make ORCI your search engine</button>
 		</div>
 	</div>
 
@@ -47,13 +47,13 @@
 		<div class="c-first">
 			<p class="c-text">Supported in over 300 languages</p>
 			<p class="c-text-p">Ever thought of a search engine in a language other than english?<br>No? ORCI has it.</p>
-			<button class="btn-hp">Make ORCI your homepage</button>
+			<button class="btn-hp">Make ORCI your search engine</button>
 		</div>
 	</div>
 
 	<!--footer-->
 	<div class="footer-btm">
-		Copyright © 2017 Orci. All rights reserved
+		Copyright © 2017 Orci. All rights reserved <span class="btm-right"><a href="#home" class="smoothscroll last">Home </a>| <a href="#" class="smoothscroll last">Privacy Policy </a>| <a href="#" class="smoothscroll last">Terms and Conditions</a></span>
 	</div>
 </body>
 </html>
