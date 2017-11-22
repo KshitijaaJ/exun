@@ -94,7 +94,7 @@ padding: 20vh 0 15vh 0;
 .c-one{
 	padding: 10vh 8vw;
 	display: flex;
-	height: 100vh;
+	height: 85vh;
 	background-image: url(images/foot3.jpg);
 	background-size: cover;
 }
@@ -130,23 +130,27 @@ padding: 20vh 0 15vh 0;
 .c-two{
 	padding: 10vh 8vw;
 	display: flex;
-	height: 100vh;
+	height: 85vh;
 	background-image: url(images/foot4.jpg);
 	background-size: cover;
 }
 .c-three{
 	padding: 10vh 8vw;
 	display: flex;
-	height: 100vh;
+	height: 85vh;
 	background-image: url(images/foot5.jpg);
 	background-size: cover;
 }
 .c-four{
 	padding: 10vh 8vw;
 	display: flex;
-	height: 100vh;
-	background-image: url(images/foot3.jpg);
+	height: 85vh;
+	background-image: url(images/bg-yellow.jpg);
 	background-size: cover;
+}
+.vid{
+	padding-top: 15vh;
+	padding-left: 5vw;
 }
 .footer-btm{
 	font-size: 12px;
